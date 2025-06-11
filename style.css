@@ -1,5 +1,5 @@
 body{
-    background-color: #969696;
+    background-color: #0de479;
 }
 
 .panda{
@@ -9,7 +9,7 @@ body{
     border-radius: 50%;
     border:solid black 5px;
     position: absolute;
-    left: 600px;
+    left: 650px;
     top:150px
 }
 
@@ -96,7 +96,7 @@ body{
     bottom:90px;
 }
 
-.smile {
+.smile{
     width: 140px;
     height: 60px; 
     border-bottom: 10px solid black; 
@@ -105,4 +105,58 @@ body{
     position: absolute;
     left: 185px;
     bottom: 90px;
+}
+
+.body{
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: absolute;
+    left:600px;
+    bottom:-200px;
+    z-index: 1;
+}
+
+.arm_left{
+    width: 200px;
+    height: 220px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left:-150px;
+    transform: rotate(-30deg);
+}
+
+.arm_right{
+    width: 200px;
+    height: 220px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right:-150px;
+    transform: rotate(30deg);
+}
+
+.leg_left{
+    width: 200px;
+    height: 220px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -80px;
+    left: 50px;
+    transform: rotate(45deg);
+}
+
+.leg_right{
+    width: 200px;
+    height: 220px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -80px;
+    right: 50px;
+    transform: rotate(-45deg);
 }
